@@ -1,0 +1,75 @@
+.jobList{
+    
+    .job_Item{
+        max-width: 1280px !important;
+        margin: 0 auto;
+        .col-lg-3{
+            .img{
+                
+                img{
+                    height: 200px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+            .info{
+                border: 1px solid rgb(205, 196, 196);
+
+                
+                .infoPeople{
+                    align-items: center;
+                    .avatar{
+                        width: 40px;
+                        height: 40px;
+                        
+                        img{
+                            border-radius: 50%;
+                        }
+                    }
+                    .name{
+                        margin-left: 30px;
+                        font-weight: 600;
+                        font-size: 18px;
+                    }
+                    
+                }
+                .nameJob{
+                    font-size: 16px;
+                    height: 70px;
+                }
+                .star{
+                    i{
+                        color: #ffbe5b;
+                    }
+                    span{
+                        font-weight: 600;
+                        color: #b5b6ba;
+                    }
+                }
+                .heart_price{
+                    border: 1px solid rgb(205, 196, 196);
+                    .heart{
+                        i{
+                        color: #b5b6ba;
+
+                        }
+
+                    }
+                    .price{
+                        color: #b5b6ba;
+                        font-size: 13px;
+                        font-weight: 600;
+
+                        span{
+                            color: #62646a;
+                            font-size: 18px;
+                        font-weight: 600;
+
+                        }                 
+                   }
+                }
+                
+            }
+        }
+    }
+}

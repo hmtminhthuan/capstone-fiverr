@@ -1,0 +1,185 @@
+//jobDetail
+.jobDetail {
+    display: flex;
+    justify-content: center;
+    .left {
+        width: 65%;
+        .nameJob {
+            width: 80%;
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .info {
+            margin-bottom: 15px;
+            .avatar {
+                margin-right: 10px;
+                display: inline;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50px;
+                }
+            }
+
+            .name_nguoiTao {
+                color: #404145;
+                cursor: pointer;
+                font-weight: 700;
+                margin-right: 8px;
+            }
+
+            .level {
+                color: #62646a;
+                font-size: 14px;
+            }
+            .star{
+                color: #ffb33e;
+                font-weight: 600;
+            }
+        }
+        .img{
+            width: 100%;
+            img{
+                width: 90%;
+            }
+        }
+        .introduceJob{
+            .moTa{
+                font-size: 13px;
+                font-weight: 600;
+                color: #62646a;
+            }
+        }
+        .seller{
+            .row{
+                .img{
+                    width:100px ;
+                    margin-right: 10px;
+                    display: inline;
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50px;
+                    }
+                }
+                .introSeller{
+                    .name_nguoiTao {
+                        color: #404145;
+                        cursor: pointer;
+                        font-weight: 700;
+                        margin-right: 8px;
+                    }
+        
+                    .level {
+                        color: #62646a;
+                        font-size: 14px;
+                    }
+                    .star{
+                        color: #ffb33e;
+                        font-weight: 600;
+                    }
+                    .btnContact{
+                        padding: 10px 15px;
+                        border: 1px solid #404145;
+                        color: #404145;
+                        font-weight: 600;
+                        border-radius: 5px;
+                        &:hover{
+                            color: white;
+                            background-color:#404145 ;
+                        }
+                    }
+                }
+                .comments{
+                    .row{
+                        .img{
+                            width:50px ;
+                    margin-right: 10px;
+                    display: inline;
+                            img{
+                                width: 50px;
+                        height: 50px;
+                        border-radius: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .comments{
+            .row{
+                .img{
+                    width:50px ;
+            margin-right: 10px;
+            display: inline;
+                    img{
+                        width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    .right {
+        position: fixed;
+        right: 50px;
+        width: 30%;
+        background-color: white;
+        .tableRight{
+            border: 1px solid rgb(190, 190, 194);
+            .header-table{
+                div{
+                    background-color: #d0d1d4;
+                    font-weight: 600;
+                    padding: 20px 0;
+                    text-align: center;
+                    width: 33.3333333% !important;
+                    border: 1px solid rgb(66, 66, 67);
+
+                }
+            }
+            .body-table{
+                padding: 30px;
+                .row{
+                    margin-bottom: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+              
+                    .col{
+                        font-weight: 600;
+                    }
+                }
+                .text{
+                    font-size: 13px;
+                }
+                .mota{
+                    font-weight: 600px;
+                    font-size: 14px;
+                    color: #62646a;
+                }
+                .btnContinue{
+                    width: 100%;
+                    border-radius: 10px;
+                    background-color: #19a463;
+                    color: white;
+                    font-weight: 600;
+                    text-align: center;
+                    padding: 10px 0;
+                }
+                .linkfooter{
+                    width: 100%;
+                    color: #19a463;
+                    padding: 10px 0;
+                    font-weight: 600;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+}

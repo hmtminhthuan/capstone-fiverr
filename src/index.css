@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+
+  
+  @font-face {
+    font-display: swap;
+    font-family: "macan";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../src/assets/font/macan-bold.woff2) !important;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "macan";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../src/assets/font/macan-regular.woff2) !important;
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "macan";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../src/assets/font/macan-regular.woff2) !important;
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "macan";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../src/assets/font/macan-bold.woff2) !important;
+  }
+}
+
+.container {
+  max-width: 1320px !important;
+  margin: auto;
+  padding: 0 32px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  padding-left: 0 !important;
+}
